@@ -2,12 +2,12 @@ Help overview. To stop current voiceover at any time press the escape key. Digit
 
 Digitalkt is organized into pages. 
 
-The settings page provides access to Audio settings, help menus, and file output of the Digitalkt. Navigate to the settings page by pressing VO and the number 1. 
+The settings page provides access to Audio settings, help menus, and file output of the Digitalkt. Navigate to the settings page by pressing the number 1. 
 
-The tempo page controls global/pattern tempo and also adjusts the swing. Navigate to the tempo page by pressing VO and the number 2. 
+The tempo page controls global/pattern tempo and also adjusts the swing. Navigate to the tempo page by pressing the number 2. 
 
-The sounds page is used to load single samples or folders of samples into the Digitalkt sound pool. VoiceOver screen reading should be enabled when using the sounds page. Navigate to the sounds page by pressing VO and the number 3. 
+The sounds page is used to load single samples or folders of samples into the Digitalkt sound pool. VoiceOver screen reading should be enabled when using the sounds page. Navigate to the sounds page by pressing the number 3. 
 
-The pattern page is where kits of 8 sounds from the sound pool are created, one-shot parameters modified, sequencer patterns created, and effects for the audio tracks modified per step. Navigate to the pattern page by pressing VO and the number 4. 
+The pattern page is where kits of 8 sounds from the sound pool are created, one-shot parameters modified, sequencer patterns created, and effects for the audio tracks modified per step. Navigate to the pattern page by pressing the number 4. 
 
-To control the main output volume of the Digitalkt, press shift and + or minus. Press the space bar to start and stop playback of the Digitalkt at any time. To change the speed of VoiceOver press VO and the less than or greater than keys. Press VO and colon to repeat the last VoiceOver message spoken.   
+To control the main output volume of the Digitalkt, press shift and + or minus. Press the space bar to start and stop playback of the Digitalkt at any time. To change the speed of VoiceOver press VO and the less than or greater than keys. To toggle VoiceOver on and off press VO, shift, and the escape key. Press VO and colon to repeat the last VoiceOver message spoken.   

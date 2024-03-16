@@ -1,1 +1,1 @@
-Press VO and the number 1 to navigate to the settings page. Press VO and the number 2 to navigate to the tempo page. Press VO and the number 3 to navigate to the sounds page, Press VO and the number 4 to navigate to the pattern page. To hear a help overview press VO and the letter H,
+Press the number 1 to navigate to the settings page. Press the number 2 to navigate to the tempo page. Press the number 3 to navigate to the sounds page, Press the number 4 to navigate to the pattern page. To hear a help overview at any time press shift and question mark.

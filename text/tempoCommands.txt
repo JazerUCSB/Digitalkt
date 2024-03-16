@@ -1,0 +1,5 @@
+Tempo page commands.
+
+To change tempo by 1 bpm press shift and the up or down arrows. To change the tempo by 10 bpm press shift, option, and the up or down arrows. 
+
+To change the swing amount press shift and the left or right arrows. 

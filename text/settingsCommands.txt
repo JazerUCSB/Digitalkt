@@ -1,0 +1,8 @@
+Settings page commands.
+
+To cycle through and select audio input device press shift and the letter I, to cycle through and select audio output device press shift and the letter O, 
+
+To cycle through and select sampling rate press shift and the letter S,
+
+To arm recording press shift and the letter R, recording will begin the next time you press the space bar. Recording will stop when the space bar is pressed again, or the song has completed playing. Files will be saved in a folder named "recordings" within the Digitalkt folder, labeled with the date and time the recording was started.
+
