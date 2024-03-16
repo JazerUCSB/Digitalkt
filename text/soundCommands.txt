@@ -1,0 +1,9 @@
+Sound page commands. 
+
+To add a folder of samples to the sound pool press shift and the letter F, 
+
+To add a single sample to the sound pool press shift and the letter S, 
+
+To clear the sound pool press shift and the letter X,
+
+Be sure to enable the system VoiceOver screen reader to navigate the finder.  

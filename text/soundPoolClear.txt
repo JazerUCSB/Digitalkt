@@ -1,0 +1,1 @@
+Sound pool cleared. There are now zero samples in the sound pool.
