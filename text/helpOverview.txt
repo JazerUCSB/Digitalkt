@@ -1,4 +1,4 @@
-Help overview. To stop current voiceover at any time press VO and the escape key. Digitalkt is an in-progress emulation of the Elektron Digitakt drum computer and sampler, with voice over funtionality and keyboard control. 
+Help overview. To stop current voiceover at any time press the escape key. Digitalkt is an in-progress emulation of the Elektron Digitakt drum computer and sampler, with voice over funtionality and keyboard control. 
 
 Digitalkt is organized into pages. 
 
@@ -10,4 +10,4 @@ The sounds page is used to load single samples or folders of samples into the Di
 
 The pattern page is where kits of 8 sounds from the sound pool are created, one-shot parameters modified, sequencer patterns created, and effects for the audio tracks modified per step. Navigate to the pattern page by pressing VO and the number 4. 
 
-To control the main output volume of the Digitalkt, press VO and + or minus. Press the space bar to start and stop playback of the Digitalkt at any time. To change the speed of VoiceOver press VO and the less than or greater than keys. Press VO and colon to repeat the last VoiceOver message spoken.   
+To control the main output volume of the Digitalkt, press shift and + or minus. Press the space bar to start and stop playback of the Digitalkt at any time. To change the speed of VoiceOver press VO and the less than or greater than keys. Press VO and colon to repeat the last VoiceOver message spoken.   
