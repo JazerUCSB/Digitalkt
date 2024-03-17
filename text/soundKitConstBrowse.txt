@@ -1,0 +1,11 @@
+You are now browsing the sound pool.
+
+Press shift and the up or down arrows to scroll through the samples in the sound pool. 
+
+Press shift and left arrow to hear audio playback as you scroll. Press shift and the right arrow to hear the file name as you scroll.
+
+Press shift, option, and the number 1 through 8 to place a sample in a slot of the current sound kit. 
+
+Press option and the number 1 through 8 to preview the sample in that slot in the current sound kit.
+
+Press control, option, and the number 1 through 8 to clear that slot in the current sound kit.

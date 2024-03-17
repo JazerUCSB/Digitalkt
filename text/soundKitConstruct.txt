@@ -1,0 +1,4 @@
+In sound kit construction mode.
+
+Choose Kit by pressing shift and the number 1 through 8.
+
