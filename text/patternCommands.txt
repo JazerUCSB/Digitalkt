@@ -1,0 +1,14 @@
+Pattern page commands.
+
+To create a new pattern press shift, option, and the number 1 through 8. This will make a blank pattern on that number. You will be prompted to set pattern length.
+
+To edit a pattern press shift, and the number 1 through 8. 
+
+Press shift and the left bracket or right bracket to scroll through sound kits 1 through 8. Press shift and the up arrow or down arrow to scroll through sounds in the selected sound kit. Press shift and the left arrow to hear sample. Press shift and the right arrow to hear the filename for the sample. 
+
+To place the currently previewed sample in the currently selected pattern press the Q through I keys to place sample on steps 1 through 8 of the pattern, and the A through K keys for steps 9 through 16. If the pattern is longer than 16 steps, use the same keys while holding shift for steps 17 through 32. 
+
+To remove the currently previewed sample from a step of the currently selected pattern, press the shift key and the QWERTY key associated with that step. 
+
+To completely clear a step of the currently selected pattern, press shift, option, and the QWERTY key associated with that step.
+
