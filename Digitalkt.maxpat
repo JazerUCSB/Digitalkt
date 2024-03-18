@@ -803,7 +803,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 119.0, 134.0, 1290.0, 814.0 ],
+						"rect" : [ 0.0, 26.0, 1290.0, 814.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2516,7 +2516,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 286.0, 41.0, 22.0 ],
-									"text" : "3"
+									"text" : "51"
 								}
 
 							}
@@ -2528,7 +2528,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 138.0, 286.0, 37.0, 22.0 ],
-									"text" : "99"
+									"text" : "115"
 								}
 
 							}
@@ -2540,7 +2540,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 101.0, 286.0, 37.0, 22.0 ],
-									"text" : "6144"
+									"text" : "256"
 								}
 
 							}
@@ -2552,7 +2552,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.0, 286.0, 37.0, 22.0 ],
-									"text" : "8"
+									"text" : "1"
 								}
 
 							}
@@ -6003,7 +6003,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 25.0, 248.0, 41.0, 22.0 ],
-									"text" : "3"
+									"text" : "51"
 								}
 
 							}
@@ -6015,7 +6015,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 146.0, 248.0, 37.0, 22.0 ],
-									"text" : "99"
+									"text" : "115"
 								}
 
 							}
@@ -6027,7 +6027,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 109.0, 248.0, 37.0, 22.0 ],
-									"text" : "6144"
+									"text" : "256"
 								}
 
 							}
@@ -6039,7 +6039,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 70.0, 248.0, 37.0, 22.0 ],
-									"text" : "8"
+									"text" : "1"
 								}
 
 							}
@@ -6736,7 +6736,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 1290.0, 814.0 ],
+						"rect" : [ 119.0, 134.0, 1290.0, 814.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6766,6 +6766,276 @@
 						"showontab" : 2,
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-148",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 523.0, 568.0, 40.0, 22.0 ],
+									"text" : "active"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-147",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 523.0, 605.0, 32.0, 22.0 ],
+									"text" : "gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-203",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 602.0, 458.0, 96.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-202",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 602.0, 337.0, 48.0, 22.0 ],
+									"text" : "del 200"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-187",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 602.0, 311.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-184",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 529.75, 409.0, 29.5, 22.0 ],
+									"text" : "join"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-183",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 529.75, 332.0, 29.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-182",
+									"maxclass" : "newobj",
+									"numinlets" : 5,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "", "", "int" ],
+									"patching_rect" : [ 529.75, 371.0, 61.0, 22.0 ],
+									"text" : "counter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-181",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 219.5, 458.0, 89.0, 22.0 ],
+									"text" : "loadmess clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-180",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 602.0, 432.0, 77.0, 22.0 ],
+									"text" : "route symbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-179",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 602.0, 371.0, 39.0, 22.0 ],
+									"text" : "dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"coll_data" : 									{
+										"count" : 29,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/421__tictacshutup__prac-hat-2.wav" ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/422__tictacshutup__prac-hat-3.wav" ]
+											}
+, 											{
+												"key" : 2,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/423__tictacshutup__prac-hat-open-2.wav" ]
+											}
+, 											{
+												"key" : 3,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/424__tictacshutup__prac-hat-open-3.wav" ]
+											}
+, 											{
+												"key" : 4,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/425__tictacshutup__prac-hat-open.wav" ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/426__tictacshutup__prac-hat.wav" ]
+											}
+, 											{
+												"key" : 6,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/427__tictacshutup__prac-kick-light.wav" ]
+											}
+, 											{
+												"key" : 7,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/428__tictacshutup__prac-kick.wav" ]
+											}
+, 											{
+												"key" : 8,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/429__tictacshutup__prac-perc-1.wav" ]
+											}
+, 											{
+												"key" : 9,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/430__tictacshutup__prac-perc-2.wav" ]
+											}
+, 											{
+												"key" : 10,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/431__tictacshutup__prac-perc-3.wav" ]
+											}
+, 											{
+												"key" : 11,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/432__tictacshutup__prac-perc-4.wav" ]
+											}
+, 											{
+												"key" : 12,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/433__tictacshutup__prac-perc-5.wav" ]
+											}
+, 											{
+												"key" : 13,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/434__tictacshutup__prac-ride-bell-loud.wav" ]
+											}
+, 											{
+												"key" : 14,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/435__tictacshutup__prac-ride-bell.wav" ]
+											}
+, 											{
+												"key" : 15,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/436__tictacshutup__prac-ride.wav" ]
+											}
+, 											{
+												"key" : 16,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/437__tictacshutup__prac-sidestick-2.wav" ]
+											}
+, 											{
+												"key" : 17,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/438__tictacshutup__prac-sidestick.wav" ]
+											}
+, 											{
+												"key" : 18,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/439__tictacshutup__prac-snare-2.wav" ]
+											}
+, 											{
+												"key" : 19,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/440__tictacshutup__prac-snare-off.wav" ]
+											}
+, 											{
+												"key" : 20,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/441__tictacshutup__prac-snare-rim.wav" ]
+											}
+, 											{
+												"key" : 21,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/442__tictacshutup__prac-snare-rimshot-2.wav" ]
+											}
+, 											{
+												"key" : 22,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/443__tictacshutup__prac-snare-rimshot.wav" ]
+											}
+, 											{
+												"key" : 23,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/444__tictacshutup__prac-snare-roll-short-2.wav" ]
+											}
+, 											{
+												"key" : 24,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/445__tictacshutup__prac-snare-roll-short.wav" ]
+											}
+, 											{
+												"key" : 25,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/446__tictacshutup__prac-snare-roll.wav" ]
+											}
+, 											{
+												"key" : 26,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/447__tictacshutup__prac-snare.wav" ]
+											}
+, 											{
+												"key" : 27,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/448__tictacshutup__prac-tom-light.wav" ]
+											}
+, 											{
+												"key" : 28,
+												"value" : [ "Macintosh HD:/Users/jazer/Desktop/MaxPatches/Sounds/Drums/17__tictacshutup__studio-drums-1/449__tictacshutup__prac-tom.wav" ]
+											}
+ ]
+									}
+,
+									"id" : "obj-102",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 602.0, 406.0, 138.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 1,
+										"precision" : 6
+									}
+,
+									"text" : "coll filePaths @embed 1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-159",
 									"maxclass" : "newobj",
@@ -9706,7 +9976,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 496.5, 220.0, 96.0, 22.0 ],
+									"patching_rect" : [ 496.5, 237.0, 96.0, 22.0 ],
 									"text" : "prepend append"
 								}
 
@@ -9787,10 +10057,10 @@
 									"id" : "obj-23",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 243.0, 392.5, 32.0, 22.0 ],
-									"text" : "t b b"
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "int" ],
+									"patching_rect" : [ 243.0, 392.5, 42.0, 22.0 ],
+									"text" : "t b b 0"
 								}
 
 							}
@@ -9961,7 +10231,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 509.5, 654.0, 79.0, 22.0 ],
+									"patching_rect" : [ 512.0, 725.0, 79.0, 22.0 ],
 									"text" : "s toShellNow"
 								}
 
@@ -9973,7 +10243,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 509.5, 619.0, 191.0, 22.0 ],
+									"patching_rect" : [ 512.0, 690.0, 191.0, 22.0 ],
 									"text" : "append samples in the sound pool"
 								}
 
@@ -9985,7 +10255,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 509.5, 568.0, 228.0, 22.0 ],
+									"patching_rect" : [ 512.0, 639.0, 228.0, 22.0 ],
 									"text" : "loadmess samples added. There are now"
 								}
 
@@ -9997,7 +10267,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 509.5, 595.0, 93.0, 22.0 ],
+									"patching_rect" : [ 512.0, 666.0, 93.0, 22.0 ],
 									"text" : "join @triggers 1"
 								}
 
@@ -10082,7 +10352,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1485.0, 23.0, 37.0, 22.0 ],
-									"text" : "6144"
+									"text" : "256"
 								}
 
 							}
@@ -10094,7 +10364,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1399.0, 23.0, 37.0, 22.0 ],
-									"text" : "3"
+									"text" : "51"
 								}
 
 							}
@@ -10382,7 +10652,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
-									"patching_rect" : [ 321.0, 457.0, 190.0, 22.0 ],
+									"patching_rect" : [ 321.0, 440.0, 190.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1
 									}
@@ -10410,6 +10680,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-100", 0 ],
 									"source" : [ "obj-101", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-180", 0 ],
+									"source" : [ "obj-102", 0 ]
 								}
 
 							}
@@ -10823,6 +11100,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-37", 1 ],
+									"source" : [ "obj-147", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-147", 0 ],
+									"source" : [ "obj-148", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-138", 1 ],
 									"order" : 0,
 									"source" : [ "obj-149", 0 ]
@@ -11028,8 +11319,57 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-102", 0 ],
+									"source" : [ "obj-179", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"source" : [ "obj-18", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-203", 0 ],
+									"source" : [ "obj-180", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-181", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-184", 0 ],
+									"source" : [ "obj-182", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-182", 0 ],
+									"source" : [ "obj-183", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-184", 1 ],
+									"source" : [ "obj-183", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-102", 0 ],
+									"source" : [ "obj-184", 0 ]
 								}
 
 							}
@@ -11044,6 +11384,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-205", 0 ],
 									"source" : [ "obj-186", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-202", 0 ],
+									"source" : [ "obj-187", 0 ]
 								}
 
 							}
@@ -11170,6 +11517,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-200", 0 ],
 									"source" : [ "obj-201", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-179", 0 ],
+									"source" : [ "obj-202", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-203", 0 ]
 								}
 
 							}
@@ -11371,6 +11732,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-182", 2 ],
+									"source" : [ "obj-23", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"source" : [ "obj-23", 0 ]
 								}
@@ -11535,16 +11903,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
-									"source" : [ "obj-32", 0 ]
+									"destination" : [ "obj-147", 1 ],
+									"order" : 0,
+									"source" : [ "obj-32", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 1 ],
-									"order" : 0,
-									"source" : [ "obj-32", 1 ]
+									"destination" : [ "obj-31", 0 ],
+									"source" : [ "obj-32", 0 ]
 								}
 
 							}
@@ -11641,7 +12009,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-183", 0 ],
+									"order" : 0,
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-45", 0 ],
+									"order" : 1,
 									"source" : [ "obj-44", 0 ]
 								}
 
@@ -11858,7 +12235,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-183", 0 ],
+									"order" : 0,
+									"source" : [ "obj-73", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-74", 0 ],
+									"order" : 1,
 									"source" : [ "obj-73", 1 ]
 								}
 
@@ -11879,7 +12265,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-102", 0 ],
+									"order" : 0,
+									"source" : [ "obj-76", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
+									"order" : 1,
 									"source" : [ "obj-76", 0 ]
 								}
 
@@ -12183,7 +12578,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1613.0, 209.5, 271.0, 25.0 ],
-									"text" : "report \"Scheduler in Audio Interrupt\" mode"
+									"text" : "report \"Scheduler in Audio Interrupt\" mode",
+									"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 								}
 
 							}
@@ -12197,7 +12593,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1656.0, 149.5, 186.0, 25.0 ],
-									"text" : "turn Overdrive mode on/off"
+									"text" : "turn Overdrive mode on/off",
+									"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 								}
 
 							}
@@ -12211,7 +12608,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1615.0, 64.5, 161.0, 25.0 ],
-									"text" : "report Overdrive mode"
+									"text" : "report Overdrive mode",
+									"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 								}
 
 							}
@@ -12241,6 +12639,11 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_type" : "color",
 									"id" : "obj-39",
 									"items" : [ "Off", ",", "On" ],
 									"maxclass" : "umenu",
@@ -12292,6 +12695,11 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_type" : "color",
 									"id" : "obj-52",
 									"items" : [ "Off", ",", "On" ],
 									"maxclass" : "umenu",
@@ -12327,7 +12735,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1657.0, 295.5, 306.0, 25.0 ],
-									"text" : "Turns \"Scheduler in Audio Interrupt\" mode on/off"
+									"text" : "Turns \"Scheduler in Audio Interrupt\" mode on/off",
+									"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 								}
 
 							}
@@ -12976,7 +13385,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 269.0, 674.0, 37.0, 22.0 ],
-									"text" : "99"
+									"text" : "115"
 								}
 
 							}
@@ -12988,7 +13397,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 231.0, 674.0, 37.0, 22.0 ],
-									"text" : "6144"
+									"text" : "256"
 								}
 
 							}
@@ -13000,7 +13409,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 193.0, 674.0, 37.0, 22.0 ],
-									"text" : "8"
+									"text" : "1"
 								}
 
 							}
@@ -13012,7 +13421,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 153.0, 674.0, 37.0, 22.0 ],
-									"text" : "3"
+									"text" : "51"
 								}
 
 							}
@@ -27355,7 +27764,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-3",
-									"items" : [ "None", ",", "VP3268-4K", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "BlackHole 64ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "AlloCipher" ],
+									"items" : [ "None", ",", "BlackHole 16ch", ",", "BlackHole 2ch", ",", "BlackHole 64ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "AlloCipher" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -28749,7 +29158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 143.0, 116.0, 37.0, 22.0 ],
-					"text" : "99"
+					"text" : "115"
 				}
 
 			}
@@ -28761,7 +29170,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 106.0, 116.0, 37.0, 22.0 ],
-					"text" : "6144"
+					"text" : "256"
 				}
 
 			}
@@ -28773,7 +29182,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 67.0, 116.0, 37.0, 22.0 ],
-					"text" : "8"
+					"text" : "1"
 				}
 
 			}
@@ -28785,7 +29194,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.0, 116.0, 37.0, 22.0 ],
-					"text" : "3"
+					"text" : "51"
 				}
 
 			}
